@@ -15,7 +15,54 @@
 </head>
 
 <body>
-
+    <main>
+        <div class="header">
+            <h1>Dog Summer Safety</h1>
+            <h2>Ensure Your Dog's Safety in the Heat</h2>
+            <p>Step out and see the sun shining brightly? Wondering if it's safe for your furry friend to join you
+                outdoors without risking heatstroke? Input the following information and ensure your dog's safety in the
+                heat!</p>
+        </div>
+        <div class="radio">
+            <label for="temperature">Temperature:</label> <!--Radio buttons for temperature -->
+            <input type="number" id="temperature">
+            <label for="fahrenheit">
+                <input type="radio" name="tempUnit" id="fahrenheit" value="F">°F
+            </label>
+            <label for="celsius">
+                <input type="radio" name="tempUnit" id="celsius" value="C">°C
+            </label>
+        </div>
+        <div class="drop-down1" id="humidity"><!--Drop down menu for humidity -->
+            <label for="humidityInput">Humidity</label>
+            <input type="text" id="humidityInput">
+            <select name="levels" id="hum-levels" aria-label="Select the humidity level">
+                <option value="">--Please choose an option--</option>
+                <option value="low"> 0-30% (Low humidity)</option>
+                <option value="moderate">31-60% (Moderate humidity)</option>
+                <option value="high">61-80% (High humidity)</option>
+                <option value="very-high">81-100% (Very high humidity)</option>
+            </select>
+        </div>
+        <div class="drop-down2" id="time"> <!--Drop down menu for Time of Day-->
+            <label for="timeOfDay">Time of Day</label>
+            <input type="text" id="timeOfDay">
+            <select name="times" id="time-of-days" aria-label="Select the time of day">
+                <option value="">--Please choose an option--</option>
+                <option value="morning" selected>5am-12pm(morning)</option>
+                <option value="afternoon">12pm-5pm(afternoon)</option>
+                <option value="evening">5pm-12am(evening)</option>
+            </select>
+        </div>
+        <div class="drop-down3" id="breed"> <!--Drop down menu for dog breed-->
+            <label for="dogBreed">Brachycephalic Breed</label>
+            <select name="breed" id="dogBreed" aria-label="Is your dog a brachycephalic breed?">
+                <option value="">--Please choose an option</option>
+                <option value="Yes" selected>Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+    </main>
 </body>
 
 </html>
