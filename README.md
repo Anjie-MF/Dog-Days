@@ -59,8 +59,6 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
@@ -69,6 +67,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Wireframing](https://balsamiq.com/learn/courses/designing-page-layout/) - Quick introduction to wireframing; perfect for a landing page.
 - [Pexels](https://www.pexels.com/) - A go-to for free, high-quality stock photos. 
+- [Hubspot](https://blog.hubspot.com/website/html-text-box)- DIY text boxes
+- [mdn web docs_](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)- DIY drop down menu
 - []()-
 - []()-
 - []()-
