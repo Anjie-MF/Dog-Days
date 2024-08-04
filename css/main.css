@@ -94,24 +94,10 @@ textarea:not([rows]) {
    ========================================================================== */
 
 /* ---------------------Mobile Style-------------------------*/
-//body {
+body {
     background: linear-gradient(to bottom, orange, #66CCFF);
 }
 
-//.header {
-    outline: red dotted 3px;
-}
 
-//.radio {
-    outline: blue solid 3px;
-}
-
-//.drop-down1 {
-    outline: green solid 3px;
-}
-
-//.drop-down2 {
-    outline: red dotted 3px;
-}
 /* ---------------------Desktop Styles-------------------------*/
 @media only screen and (min-width: 768px) {}
