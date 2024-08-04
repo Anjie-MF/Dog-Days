@@ -69,8 +69,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Pexels](https://www.pexels.com/) - A go-to for free, high-quality stock photos. 
 - [Hubspot](https://blog.hubspot.com/website/html-text-box)- DIY text boxes
 - [mdn web docs_](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)- DIY drop down menu
-- []()-
-- []()-
+- [w3 Validator](https://validator.w3.org/)-Caught my mistakes like ; or a div left open
+- [Ismael Ramos](https://www.ismaelramos.dev/blog/top-20-must-know-tips-for-web-accessibility/)- Concerned about too many divs for screen readers. Read this article out! Accessibility matters!
+- [Gemini AI](https://gemini.google.com)-Really help me think through the decison making logic and referenced  great articles to refer back to later 
+- [Dr.Justine Lee](https://drjustinelee.com/heat-stroke-in-dogs-dr-justine-lee-dacvecc-dabt-board-certified-veterinary-specialist/)- Researched used when making the decision tree 
+- [StellaandChewys](https://www.stellaandchewys.com/dogs/walking-dogs-in-hot-weather/#:~:text=65%C2%B0%2D69%C2%B0F,high%20risk%20for%20larger%20dogs)- Researched used when making the decison tree
 - []()-
 
 
