@@ -23,41 +23,36 @@
                 outdoors without risking heatstroke? Input the following information and ensure your dog's safety in the
                 heat!</p>
         </section>
-
-        <section class="form-section"> <!--USER INPUT SECTION-->
+        <div class="form-section"> <!--USER INPUT SECTION-->
             <fieldset>
                 <legend>Temperature</legend>
-                <div class="radio"><!--Radio buttons for temperature -->
+                <div class="temperature">
                     <input type="number" id="temperature">
-                    <label for="fahrenheit">
-                        <input type="radio" name="tempUnit" id="fahrenheit" value="F">°F
-                    </label>
-                    <label for="celsius">
-                        <input type="radio" name="tempUnit" id="celsius" value="C">°C
-                    </label>
                 </div>
             </fieldset>
             <fieldset>
                 <legend>Humidity</legend> <!--Drop down menu for humidity levels-->
                 <select name="levels" id="humidityInput" aria-label="Select the humidity level">
                     <option value="">--Please choose an option--</option>
-                    <option value="low"> 0-30% (Low humidity)</option>
-                    <option value="moderate">31-60% (Moderate humidity)</option>
-                    <option value="high">61-80% (High humidity)</option>
-                    <option value="very-high">81-100% (Very high humidity)</option>
+                    <option value="low">Below 50% (Safe)</option>
+                    <option value="moderate">51-70% (Moderate)</option>
+                    <option value="high">Above 70% (Dangerous)</option>
                 </select>
             </fieldset>
             <fieldset>
                 <legend>Brachycephalic Breed</legend><!--Drop down menu for dog breed-->
                 <select name="breed" id="dogBreed" aria-label="Is your dog a brachycephalic breed?">
-                    <option value="">--Please choose an option</option>
-                    <option value="Yes" selected>Yes</option>
+                    <option value="">--Please choose an option--</option>
+                    <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
             </fieldset>
             <button type="button" id="checkSafety">Is it safe?</button> <!--SAFETY BUTTON-->
-        </section>
-        <section class="results-section"></section>
+        </div>
+        <div class="results-section"><!--IMAGE RESULTS FOR CHECK SAFETY-->
+            <img src="" alt="" id="dogImage">
+            <h2 id="resultText"></h2>
+        </div>
     </main>
 </body>
 
